@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(237, 226, 226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box{
+    background-color: blue;
+    color: white;
+    width: 320px;
+    height: 480px;
+    border-radius: 30px;
+}
+
+.box h1{
+    font-size: 3em;
+    text-align: center;
+    padding-top: 40px;
+    color: yellow;
+}
+
+.box h3{
+    font-size: 1.3em;
+    text-align: center;
+    padding: 9px 0;
+}
+
+span{
+    font-size: 3em;
+}
+
+.box hr{
+    border: 1px gray solid;
+    margin-bottom: 20px;
+}
+
+.icon-text{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.icon-text i{
+    font-size: 1.8em;
+    color: yellow;
+}
+
+.icon-text p{
+    font-size: 1.8em;
+}
+
+/* icon two */
+
+.icon-text2{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 25px;
+}
+
+.icon-text2 i{
+    font-size: 1.8em;
+    color: yellow;
+}
+
+.icon-text2 p{
+    font-size: 1.8em;
+}
+
+button{
+    background-color: yellow;
+    padding: 10px 35px;
+    font-size: 1.3em;
+    border: none;
+    border-radius: 20px;
+    margin-left: 70px;
+    margin-top: 60px;
+}
+
+.container{
+    display: flex;
+    gap: 40px;
+}
+
+.icon{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 2px;
+}
