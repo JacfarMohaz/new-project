@@ -4,7 +4,7 @@
     width: 200px;
     height: 100px;
     /* flex-shrink: 5; */
-    flex-grow: 0;
+    flex-grow: 5;
 }
 
 .box2{
